@@ -131,7 +131,7 @@ public class searchItemTest {
  		   Assert.assertEquals( obj.get("totalResults"),21030);
 
 		
- // to assert the sorted price check the first 
+ // to assert that the price is sorted in descending order 
  		   
  		   JSONArray arr = obj.getJSONArray("items");
  		   
@@ -155,8 +155,7 @@ public class searchItemTest {
   			  
   			  else {
   				  
- // 		         Assert.assertTrue(price.get(i) <= price.get(i+1));
-
+ 
   				  i++;
   			  }
   			  
