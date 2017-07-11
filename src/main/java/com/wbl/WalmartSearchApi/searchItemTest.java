@@ -50,7 +50,7 @@ public class searchItemTest {
 		query": "ipod",
 	    "sort": "relevance",
 	    "responseGroup": "base",
-	    "totalResults": 21298,
+	    "totalResults": 21297,
 	    "start": 1,
 	    "numItems": 10,
 		*/
